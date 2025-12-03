@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(125, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    height: 240px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h4{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 35%;
+    font-weight: 600;
+}
+button{
+    background-color: white;
+    height: 100%;
+    width: 60px;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+    
+}
+button:active{
+    scale: 0.98;
+    
+}
+
+#outerbox{
+    height: 250px;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+}
